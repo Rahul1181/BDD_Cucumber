@@ -1,4 +1,4 @@
-package com.bdd.cucumber;
+package com;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

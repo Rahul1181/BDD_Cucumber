@@ -1,4 +1,4 @@
-package com.bdd.cucumber;
+package com;
 
 /**
  * Hello world!
