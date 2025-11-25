@@ -10,8 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "com.StepDefinitions",
-    plugin = {"pretty", "html:target/HtmlReports/cucumber-report.html"},
-    monochrome = true  //makes console output more readable
+    plugin = {"pretty", "html:target/HtmlReports/cucumber-report.html",
+                "json:target/JsonReports/cucumber-report.json",
+                "junit:target/JunitReports/cucumber-report.xml"},
+    monochrome = true,  //makes console output more readable
+    tags = "@SmokeTest"
 )
 public class RunCucumberTest {
 }
