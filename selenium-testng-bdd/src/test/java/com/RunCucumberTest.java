@@ -1,14 +1,17 @@
 package com;
 
+// We need Runner class to run the feature file with more Options
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
-@RunWith(Cucumber.class)
+//Tells Junit to use the cucumber test runner instead of default Junit runner
+@RunWith(Cucumber.class)  
 @CucumberOptions(
     features = "src/test/resources/features",
-    glue = "com",
-    plugin = {"pretty", "html:target/cucumber-report.html"}
+    glue = "com.StepDefinitions",
+    plugin = {"pretty", "html:target/HtmlReports/cucumber-report.html"},
+    monochrome = true  //makes console output more readable
 )
 public class RunCucumberTest {
 }

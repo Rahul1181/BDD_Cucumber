@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.226 s <<< FAILURE! -- in com.RunCucumberTest
-Feature to test login Functionality.Check Login is unsuccessful with invalid credentials #1 -- Time elapsed: 0.035 s <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step 'users enters invalid user1 and pass1' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("users enters invalid user1 and pass1")
-public void users_enters_invalid_user1_and_pass1() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-
-Feature to test login Functionality.Check Login is unsuccessful with invalid credentials #2 -- Time elapsed: 0.012 s <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step 'users enters invalid user2 and pass2' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When("users enters invalid user2 and pass2")
-public void users_enters_invalid_user2_and_pass2() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.617 s -- in com.RunCucumberTest
