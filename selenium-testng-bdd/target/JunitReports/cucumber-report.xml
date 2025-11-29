@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7.348" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-29T18:49:45.017985400Z">
-<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="7.199">
+<testsuite name="Cucumber" time="4.545" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-29T19:13:15.346094800Z">
+<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="4.391">
 <system-out><![CDATA[
 Given I am on the Google search page........................................passed
 When I search for "The Witcher 3"...........................................passed
