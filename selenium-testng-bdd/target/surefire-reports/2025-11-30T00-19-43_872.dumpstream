@@ -1,4 +1,4 @@
-# Created at 2025-11-26T03:29:48.088
+# Created at 2025-11-30T00:19:44.055
 Boot Manifest-JAR contains absolute paths in classpath 'D:\VS Project\BDD_Cucumber\selenium-testng-bdd\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root

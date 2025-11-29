@@ -1,3 +1,5 @@
 com\AppTest.class
+com\StepDefinitions\AutomationExerciseLogin.class
 com\RunCucumberTest.class
+com\StepDefinitions\GoogleSearchSteps.class
 com\StepDefinitions\LoginSteps.class
