@@ -43,11 +43,7 @@ public class GoogleSearchSteps {
     @Then("I should see results related to {string}")
     public void i_should_see_results_related_to(String string) {
         driver.manage().timeouts().implicitlyWait(timeout);
-
-        WebElement checkbox = driver.findElement(By.className("class=\"recaptcha-checkbox-border\""));
-        if(!checkbox.isSelected()){
-            checkbox.click();
-        }
+       
         // Check for CAPTCHA presence
         if (driver.getPageSource().contains("I'm not a robot")) {
             System.out.println("CAPTCHA detected. Test cannot proceed.");
@@ -56,7 +52,7 @@ public class GoogleSearchSteps {
             boolean isVisible = driver.getPageSource().contains("The Witcher 3");
             System.out.println("Content visible: " + isVisible);
         }
-        //driver.quit();
+        driver.quit();
     }
    
 }
