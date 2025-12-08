@@ -17,4 +17,5 @@ import io.cucumber.junit.CucumberOptions;
     tags = "@SmokeTest"
 )
 public class RunCucumberTest {
+    
 }
