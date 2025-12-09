@@ -8,13 +8,14 @@ import io.cucumber.junit.CucumberOptions;
 //Tells Junit to use the cucumber test runner instead of default Junit runner
 @RunWith(Cucumber.class)  
 @CucumberOptions(
-    features = "src/test/resources/features/GoogleSearch.feature", //path of feature file
+    features = "src/test/resources/features/login.feature", //path of feature file
     glue = "stepDefiniations",
     plugin = {"pretty", "html:target/HtmlReports/cucumber-report.html",
                 "json:target/JsonReports/cucumber-report.json",
                 "junit:target/JunitReports/cucumber-report.xml"},
     monochrome = true,  //makes console output more readable
-    tags = "@SmokeTest"
+    tags = "@regression"
+    //tags = "@SmokeTest"
 )
 public class RunCucumberTest {
     

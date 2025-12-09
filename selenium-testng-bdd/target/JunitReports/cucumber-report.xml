@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7.069" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-09T14:13:51.218036500Z">
-<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="6.923">
+<testsuite name="Cucumber" time="10.504" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-09T15:37:48.443159900Z">
+<testcase classname="Feature to test login Functionality" name="Check Login is successful with valid credentials" time="10.306">
 <system-out><![CDATA[
-Given I am on the Google search page........................................passed
-When I search for "The Witcher 3"...........................................passed
-And I press Enter key.......................................................passed
-Then I should see results related to "The Witcher 3"........................passed
+Given user is on login page.................................................passed
+And user clicks on signup link and navigates to signup page.................passed
+When users enters username and password.....................................passed
+And clicks on login button..................................................passed
+Then user is navigated to MyPortfolio page..................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

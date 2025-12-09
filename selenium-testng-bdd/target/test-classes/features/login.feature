@@ -1,5 +1,5 @@
 Feature: Feature to test login Functionality
-@SmokeTest
+@regression
     Scenario: Check Login is successful with valid credentials
         Given user is on login page
         And user clicks on signup link and navigates to signup page
