@@ -1,10 +1,9 @@
-package com.StepDefinitions;
+package stepDefiniations;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.And;
@@ -27,7 +26,7 @@ public class GoogleSearchSteps {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
-        // instead of driver.get() we can also use driver.navigate().to() method
+        // instead of driver.   get() we can also use driver.navigate().to() method
         // because navigation featues(back, forward, refresh) actions
         driver.navigate().to("https://www.google.com/");
     }

@@ -1,4 +1,4 @@
-package com;
+package runners;
 
 // We need Runner class to run the feature file with more Options
 import org.junit.runner.RunWith;
@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)  
 @CucumberOptions(
     features = "src/test/resources/features/GoogleSearch.feature", //path of feature file
-    glue = "com.StepDefinitions",
+    glue = "stepDefiniations",
     plugin = {"pretty", "html:target/HtmlReports/cucumber-report.html",
                 "json:target/JsonReports/cucumber-report.json",
                 "junit:target/JunitReports/cucumber-report.xml"},

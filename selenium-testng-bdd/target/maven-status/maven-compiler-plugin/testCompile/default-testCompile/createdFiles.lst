@@ -1,4 +1,4 @@
-com\StepDefinitions\AutomationExerciseLogin.class
-com\RunCucumberTest.class
-com\StepDefinitions\GoogleSearchSteps.class
-com\StepDefinitions\LoginSteps.class
+stepDefiniations\AutomationExerciseLogin.class
+runners\RunCucumberTest.class
+stepDefiniations\LoginSteps.class
+stepDefiniations\GoogleSearchSteps.class

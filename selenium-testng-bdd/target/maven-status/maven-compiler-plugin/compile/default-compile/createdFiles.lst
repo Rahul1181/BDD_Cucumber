@@ -1,1 +1,12 @@
+framework\config\Configuration.class
+framework\drivers\BrowserOptionsManager.class
+framework\drivers\DriverFactory.class
+framework\utils\ConfigReader.class
 com\App.class
+framework\base\BasePage.class
+framework\utils\DropdownUtils.class
+framework\base\Hooks.class
+framework\utils\LoggerUtil.class
+framework\utils\ScreenshotUtils.class
+framework\utils\WaitUtils.class
+framework\base\BaseTest.class

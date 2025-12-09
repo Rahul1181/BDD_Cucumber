@@ -1,5 +1,4 @@
-D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\com\AppTest.java
-D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\com\StepDefinitions\GoogleSearchSteps.java
-D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\com\RunCucumberTest.java
-D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\com\StepDefinitions\LoginSteps.java
-D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\com\StepDefinitions\AutomationExerciseLogin.java
+D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\runners\RunCucumberTest.java
+D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\stepDefiniations\LoginSteps.java
+D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\stepDefiniations\AutomationExerciseLogin.java
+D:\VS Project\BDD_Cucumber\selenium-testng-bdd\src\test\java\stepDefiniations\GoogleSearchSteps.java
