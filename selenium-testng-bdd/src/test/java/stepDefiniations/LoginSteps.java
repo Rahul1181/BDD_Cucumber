@@ -26,7 +26,7 @@ public class LoginSteps {
     @And("user clicks on signup link and navigates to signup page")
     public void user_clicks_on_signup_link_and_navigates_to_signup_page() {
         driver.findElement(By.name("name")).sendKeys("Vijay");
-        driver.findElement(By.xpath("//*[contains(@data-qa,'signup-email')]")).sendKeys("Vijay930@gmail.com");
+        driver.findElement(By.xpath("//*[contains(@data-qa,'signup-email')]")).sendKeys("Vijay931@gmail.com");
         driver.findElement(By.xpath("//*[contains(@data-qa,'signup-button')]")).click();
         driver.findElement(By.id("id_gender1")).click();
         driver.findElement(By.id("password")).sendKeys("vijayDena@31");
@@ -79,7 +79,7 @@ public class LoginSteps {
 
     @When("users enters username and password")
     public void users_enters_username_and_password() {
-        
+
         
         System.out.println("Entering valid credentials");
     }
