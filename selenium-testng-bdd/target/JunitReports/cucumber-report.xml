@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7.235" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-10T16:52:37.156164700Z">
-<testcase classname="Feature to test Login Functionality" name="Check Login is successful with valid Credentials" time="7.094">
+<testsuite name="Cucumber" time="15.777" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-12-10T19:54:26.868079Z">
+<testcase classname="Feature to test Login Functionality using Data Parameterization &amp; Data Driven Testing" name="Check Login is successful with valid Credentials - #1.1" time="9.692">
 <system-out><![CDATA[
-Given user in the Login page................................................passed
-When user enters the username and password..................................passed
-And user clicks on the submit button........................................passed
-Then user is redirected to portfolio page...................................passed
+Given user in the Login page of website.....................................passed
+When user enters the Vijay938@gmail.com and vijayDena@31....................passed
+And user clicks on submit button............................................passed
+Then user lands on the portfolio page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test Login Functionality using Data Parameterization &amp; Data Driven Testing" name="Check Login is successful with valid Credentials - #1.2" time="5.931">
+<system-out><![CDATA[
+Given user in the Login page of website.....................................passed
+When user enters the Vijay937@gmail.com and vijayDena@31....................passed
+And user clicks on submit button............................................passed
+Then user lands on the portfolio page.......................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

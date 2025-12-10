@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
                 "json:target/JsonReports/cucumber-report.json",
                 "junit:target/JunitReports/cucumber-report.xml"},
     monochrome = true,  //makes console output more readable
-    tags = "@login"
+    tags = "@loginParameterized"
+    //tags = "@login"
     //tags = "@signup"
 )
 public class RunCucumberTest {
