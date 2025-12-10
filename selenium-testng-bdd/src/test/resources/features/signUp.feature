@@ -1,7 +1,7 @@
-Feature: Feature to test login Functionality
+Feature: Feature to test signUp Functionality
 
-  @regression
-  Scenario: Check Login is successful with valid credentials
+  @signup
+  Scenario: Check Signup is successful with valid credentials
     Given user is on signUp page
     When user fill the personal details
     Then user is navigated to MyPortfolio page
