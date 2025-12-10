@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="10.504" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-09T15:37:48.443159900Z">
-<testcase classname="Feature to test login Functionality" name="Check Login is successful with valid credentials" time="10.306">
+<testsuite name="Cucumber" time="9.6" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-10T09:00:30.338910600Z">
+<testcase classname="Feature to test login Functionality" name="Check Login is successful with valid credentials" time="9.453">
 <system-out><![CDATA[
-Given user is on login page.................................................passed
-And user clicks on signup link and navigates to signup page.................passed
-When users enters username and password.....................................passed
-And clicks on login button..................................................passed
+Given user is on signUp page................................................passed
+When user fill the personal details.........................................passed
 Then user is navigated to MyPortfolio page..................................passed
 ]]></system-out>
 </testcase>

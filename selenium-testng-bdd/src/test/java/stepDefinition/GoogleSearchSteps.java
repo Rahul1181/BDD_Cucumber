@@ -1,4 +1,4 @@
-package stepDefiniations;
+package stepDefinition;
 import java.time.Duration;
 
 import org.openqa.selenium.By;

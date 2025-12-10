@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)  
 @CucumberOptions(
     features = "src/test/resources/features/login.feature", //path of feature file
-    glue = "stepDefiniations",
+    glue = {"stepDefinition", "framework.base"},
     plugin = {"pretty", "html:target/HtmlReports/cucumber-report.html",
                 "json:target/JsonReports/cucumber-report.json",
                 "junit:target/JunitReports/cucumber-report.xml"},
