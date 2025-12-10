@@ -1,10 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="9.6" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-10T09:00:30.338910600Z">
-<testcase classname="Feature to test login Functionality" name="Check Login is successful with valid credentials" time="9.453">
+<testsuite name="Cucumber" time="6.998" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-10T13:08:02.042541300Z">
+<testcase classname="Feature to test login Functionality" name="Check Login is successful with valid credentials" time="6.822">
+<failure type="org.openqa.selenium.remote.UnreachableBrowserException" message="Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a52934952c0c9a679ca229348c0fa09, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61991}, goog:processID: 26676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61991/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a52934952c0c9a679ca229348c0fa09">
+<![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a52934952c0c9a679ca229348c0fa09, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61991}, goog:processID: 26676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61991/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a52934952c0c9a679ca229348c0fa09
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.SignUp.signUpUser(SignUp.java:90)
+	at stepDefinition.LoginSteps.user_fill_the_personal_details(LoginSteps.java:19)
+	at ✽.user fill the personal details(file:///D:/VS%20Project/BDD_Cucumber/selenium-testng-bdd/src/test/resources/features/signUp.feature:6)
+Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:964)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 8 more
+Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
+	at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:388)
+	at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:590)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
+	at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	... 3 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+]]>
+</failure>
 <system-out><![CDATA[
 Given user is on signUp page................................................passed
-When user fill the personal details.........................................passed
-Then user is navigated to MyPortfolio page..................................passed
+When user fill the personal details.........................................failed
+Then user is navigated to MyPortfolio page..................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

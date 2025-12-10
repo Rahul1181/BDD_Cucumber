@@ -11,13 +11,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 //Here we add all Driver initialization
 public class Hooks {
-    public static WebDriver driver;
+    private static WebDriver driver;
     @Before
     public void setUp(){
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();   //"WebDriver Manager, get the Chrome driver, and set it up.
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();  //"Hey computer operator (driver), let me access the control panel (manage), specifically the window settings (window), and make it full screen (maximize)."
 
     }
     @After

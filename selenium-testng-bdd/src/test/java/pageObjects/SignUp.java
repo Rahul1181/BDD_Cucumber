@@ -83,7 +83,7 @@ public class SignUp {
     public void signUpUser(){
         //Setting up in the SignUp page
         nameField.sendKeys("Vijay");
-        emailField.sendKeys("Vijay934@gmail.com");
+        emailField.sendKeys("Vijay936@gmail.com");
         signUpButton.click();
 
         //Creating the Account
@@ -117,7 +117,6 @@ public class SignUp {
 
         //After successful Verification
         continueButton.click();
-
 
     }
     
