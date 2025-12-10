@@ -77,13 +77,14 @@ public class SignUp {
     @FindBy(xpath = "//*[contains(@data-qa,'continue-button')]")
     WebElement continueButton;
 
+    //Here the driver starts to call the methods
     public void openWebsite(){
         driver.navigate().to("https://automationexercise.com/login");
     }
     public void signUpUser(){
         //Setting up in the SignUp page
         nameField.sendKeys("Vijay");
-        emailField.sendKeys("Vijay936@gmail.com");
+        emailField.sendKeys("Vijay938@gmail.com");
         signUpButton.click();
 
         //Creating the Account
@@ -115,9 +116,13 @@ public class SignUp {
         //Click on Create Account button
         createAccountButton.click();
 
-        //After successful Verification
-        continueButton.click();
+        System.out.println("Your account has been created.");
 
+    }
+    //After successful Verification
+    public void successfulSignUp(){
+        continueButton.click();
+        System.out.println("Successful Account Creation");
     }
     
 }

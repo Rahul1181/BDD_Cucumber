@@ -3,9 +3,10 @@ package stepDefinition;
 import io.cucumber.java.en.*;
 import pageObjects.SignUp;
 
-public class LoginSteps {
+public class SignUpSteps {
     SignUp signUp;
-    public LoginSteps(){
+    //This is called constructor injection( means : First the LoginSteps object is created then we create the signUp constructor)
+    public SignUpSteps(){
         signUp = new SignUp();
     }
 
@@ -21,6 +22,7 @@ public class LoginSteps {
 
     @Then("user is navigated to MyPortfolio page")
     public void user_is_navigated_to_my_portfolio_page() {
-        System.out.println("Error message displayed for invalid credentials");
+        signUp.successfulSignUp();
+        
     }
 }
