@@ -3,7 +3,6 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 
 import framework.base.Hooks;
 
@@ -11,9 +10,9 @@ import framework.base.Hooks;
 public class GoogleSearch {
     private WebDriver driver;
 
+    //Constructor call
     public GoogleSearch(){
         this.driver = Hooks.getDriver();
-        PageFactory.initElements(driver, this);
     }
 
     //Locators of the element
