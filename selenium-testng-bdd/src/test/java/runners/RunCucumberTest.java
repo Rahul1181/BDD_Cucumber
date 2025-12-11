@@ -14,7 +14,8 @@ import io.cucumber.junit.CucumberOptions;
                 "json:target/JsonReports/cucumber-report.json",
                 "junit:target/JunitReports/cucumber-report.xml"},
     monochrome = true,  //makes console output more readable
-    tags = "@loginParameterized"
+    tags = "@SearchText"
+    //tags = "@loginParameterized"
     //tags = "@login"
     //tags = "@signup"
 )

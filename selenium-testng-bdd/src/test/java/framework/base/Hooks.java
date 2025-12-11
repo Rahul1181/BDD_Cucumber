@@ -16,7 +16,11 @@ public class Hooks {
     public void setUp(){
         WebDriverManager.chromedriver().setup();   //"WebDriver Manager, get the Chrome driver, and set it up.
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        
+        //Instead of using deprecated implicitlyWait method 
+        // .implicitlyWait(long time, TimeUnit unit); we are using the new method
+        //  with Duration becuase of selenium 4 update
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();  //"Hey computer operator (driver), let me access the control panel (manage), specifically the window settings (window), and make it full screen (maximize)."
 
     }
