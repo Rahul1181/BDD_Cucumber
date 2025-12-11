@@ -16,7 +16,7 @@ public class SignUp {
         this.driver = Hooks.getDriver();
         PageFactory.initElements(driver, this);
     }
-
+    //This is page factory model i.e the simplified version of POM
     @FindBy(name ="name")
     WebElement nameField;
 
