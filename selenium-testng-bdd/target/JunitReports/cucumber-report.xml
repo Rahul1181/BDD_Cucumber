@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="4.585" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-11T16:04:32.765845500Z">
-<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="4.436">
-<failure type="java.lang.IllegalStateException" message="CAPTCHA detected. Please complete the CAPTCHA before">
-<![CDATA[java.lang.IllegalStateException: CAPTCHA detected. Please complete the CAPTCHA before
-	at pageObjects.GoogleSearch.checkCaptca(GoogleSearch.java:36)
+<testsuite name="Cucumber" time="5.364" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-11T16:18:02.918382800Z">
+<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="5.207">
+<failure type="java.lang.IllegalStateException" message="CAPTCHA detected. Please complete the CAPTCHA beforehttps://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%2BWitcher%2B3%26sca_esv%3D8a0af9638f9b3ed2%26source%3Dhp%26ei%3Dve46aZvGA6ipvr0P4_z1yA8%26iflsig%3DAOw8s4IAAAAAaTr8zTOKC6XwXOav-AQMTOXuhWi7NHkR%26ved%3D0ahUKEwjbmPHq97WRAxWolK8BHWN-HfkQ4dUDCBA%26uact%3D5%26oq%3DThe%2BWitcher%2B3%26gs_lp%3DEgdnd3Mtd2l6Ig1UaGUgV2l0Y2hlciAzSBdQAFgVcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAQ%26sclient%3Dgws-wiz%26sei%3Dve46aaXUO-bD1e8P-riu6Ao&amp;q=EgRnNmldGL7d68kGIjCnVQWqsfUwJ53-xRAT1UI-uJmAocw-PefAWnt-N2nUPGY8GsGiheN8j3mhPfchA0QyAVJaAUM">
+<![CDATA[java.lang.IllegalStateException: CAPTCHA detected. Please complete the CAPTCHA beforehttps://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%2BWitcher%2B3%26sca_esv%3D8a0af9638f9b3ed2%26source%3Dhp%26ei%3Dve46aZvGA6ipvr0P4_z1yA8%26iflsig%3DAOw8s4IAAAAAaTr8zTOKC6XwXOav-AQMTOXuhWi7NHkR%26ved%3D0ahUKEwjbmPHq97WRAxWolK8BHWN-HfkQ4dUDCBA%26uact%3D5%26oq%3DThe%2BWitcher%2B3%26gs_lp%3DEgdnd3Mtd2l6Ig1UaGUgV2l0Y2hlciAzSBdQAFgVcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAQ%26sclient%3Dgws-wiz%26sei%3Dve46aaXUO-bD1e8P-riu6Ao&q=EgRnNmldGL7d68kGIjCnVQWqsfUwJ53-xRAT1UI-uJmAocw-PefAWnt-N2nUPGY8GsGiheN8j3mhPfchA0QyAVJaAUM
+	at pageObjects.GoogleSearch.checkCaptca(GoogleSearch.java:34)
 	at stepDefinition.GoogleSearchSteps.i_should_see_results_related_to(GoogleSearchSteps.java:25)
 	at ✽.I should see results related to "The Witcher 3"(file:///D:/VS%20Project/BDD_Cucumber/selenium-testng-bdd/src/test/resources/features/GoogleSearch.feature:9)
 ]]>
