@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="5.168" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-11T15:13:40.384093600Z">
-<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="4.979">
-<failure type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwi01qe56bWRAxVaafUHHfE4E-wQ4dUDCBM&quot;&gt; is not clickable at point (634, 295). Other element would receive the click: &lt;div class=&quot;pcTkSc&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=142.0.7444.176)
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bcecdbbbe09e7eb9734932a73ee14f19, clickElement {id=f.AC5C5554F12AA8EABDED2E306B047C40.d.D28E47494458F91D114AA8DFC8A91B94.e.312}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51194}, goog:processID: 18824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51194/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bcecdbbbe09e7eb9734932a73ee14f19)] -&gt; xpath: (//input[@name='btnK' or @value='Google Search'])[2]]
-Session ID: bcecdbbbe09e7eb9734932a73ee14f19">
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwi01qe56bWRAxVaafUHHfE4E-wQ4dUDCBM"> is not clickable at point (634, 295). Other element would receive the click: <div class="pcTkSc">...</div>
-  (Session info: chrome=142.0.7444.176)
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bcecdbbbe09e7eb9734932a73ee14f19, clickElement {id=f.AC5C5554F12AA8EABDED2E306B047C40.d.D28E47494458F91D114AA8DFC8A91B94.e.312}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51194}, goog:processID: 18824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51194/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bcecdbbbe09e7eb9734932a73ee14f19)] -> xpath: (//input[@name='btnK' or @value='Google Search'])[2]]
-Session ID: bcecdbbbe09e7eb9734932a73ee14f19
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pageObjects.GoogleSearch.searchFor(GoogleSearch.java:34)
-	at stepDefinition.GoogleSearchSteps.i_search_for(GoogleSearchSteps.java:21)
-	at ✽.I search for "The Witcher 3"(file:///D:/VS%20Project/BDD_Cucumber/selenium-testng-bdd/src/test/resources/features/GoogleSearch.feature:8)
+<testsuite name="Cucumber" time="4.585" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-11T16:04:32.765845500Z">
+<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="4.436">
+<failure type="java.lang.IllegalStateException" message="CAPTCHA detected. Please complete the CAPTCHA before">
+<![CDATA[java.lang.IllegalStateException: CAPTCHA detected. Please complete the CAPTCHA before
+	at pageObjects.GoogleSearch.checkCaptca(GoogleSearch.java:36)
+	at stepDefinition.GoogleSearchSteps.i_should_see_results_related_to(GoogleSearchSteps.java:25)
+	at ✽.I should see results related to "The Witcher 3"(file:///D:/VS%20Project/BDD_Cucumber/selenium-testng-bdd/src/test/resources/features/GoogleSearch.feature:9)
 ]]>
 </failure>
 <system-out><![CDATA[
 Given I am on the Google search page........................................passed
-When I search for "The Witcher 3"...........................................failed
-Then I should see results related to "The Witcher 3"........................skipped
+When I search for "The Witcher 3"...........................................passed
+Then I should see results related to "The Witcher 3"........................failed
 ]]></system-out>
 </testcase>
 </testsuite>
