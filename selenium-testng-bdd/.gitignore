@@ -25,3 +25,6 @@ replay_pid*
 
 # do not track target directory
 /target/
+
+# do nto track logs file
+.idea
