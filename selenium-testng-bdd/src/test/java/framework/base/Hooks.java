@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-//Here we add all Driver initialization
+//Hooks are the block of Code which runs before and after every scenario (They are listners similar to TestNG)
 public class Hooks {
     private static WebDriver driver;
     @Before

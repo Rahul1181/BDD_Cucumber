@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
                 "json:target/JsonReports/cucumber-report.json",
                 "junit:target/JunitReports/cucumber-report.xml"},
     monochrome = true,  //makes console output more readable
-    tags = "@regression and @sprint"
+    tags = "(@regression or @sprint) and @important"
 )
 public class TagsCucumberTest {
     

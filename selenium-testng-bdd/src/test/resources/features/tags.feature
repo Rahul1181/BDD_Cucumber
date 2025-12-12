@@ -12,8 +12,17 @@ Feature: Feature to check multiple tags
         When
         Then
 
-    @regression @sprint
+    @important
     Scenario: This scenario will run for both regression and sprint testing
         Given
         When
         Then
+
+    @important @sprint
+    Scenario: This will run when important and sprint testing is done
+        Given
+        When
+        Then
+
+
+ # It is not possible to add tags above Background, Given, When, And, Then, But
