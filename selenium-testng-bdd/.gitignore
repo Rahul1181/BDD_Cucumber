@@ -27,4 +27,4 @@ replay_pid*
 /target/
 
 # do nto track logs file
-.idea
+.idea/
