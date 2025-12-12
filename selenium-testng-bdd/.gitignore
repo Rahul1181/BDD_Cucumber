@@ -24,7 +24,8 @@ hs_err_pid*
 replay_pid*
 
 # do not track target directory
-/target/
+target/
 
 # do nto track logs file
 .idea/
+*.iml
