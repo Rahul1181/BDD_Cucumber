@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7.044" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-12-11T19:25:30.651775800Z">
-<testcase classname="Feature to test Google Search Functionality" name="Search game in the Google search engine" time="6.795">
-<failure type="java.lang.IllegalStateException" message="CAPTCHA detected. Please complete the CAPTCHA before https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%2BWitcher%2B3%26sca_esv%3Dedb4ab9214abdc96%26source%3Dhp%26ei%3Drho7aY75I-Gf4-EPw6SImQU%26iflsig%3DAOw8s4IAAAAAaTsovprR8xVVBydBTfl7kFo9r7CAPAMw%26ved%3D0ahUKEwiOiIrfobaRAxXhzzgGHUMSIlMQ4dUDCBU%26uact%3D5%26oq%3DThe%2BWitcher%2B3%26gs_lp%3DEgdnd3Mtd2l6Ig1UaGUgV2l0Y2hlciAzSBdQAFgVcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAA%26sclient%3Dgws-wiz%26sei%3Drxo7abmnG9ujvr0P-I2GyQI&amp;q=EgRnNmldGK-17MkGIjDEUbD0H29hvVrdmb5KM105frzD4T-8GzIT9qIOlwOpqLx8-tAKfALWrriOpBIz8zUyAVJaAUM">
-<![CDATA[java.lang.IllegalStateException: CAPTCHA detected. Please complete the CAPTCHA before https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DThe%2BWitcher%2B3%26sca_esv%3Dedb4ab9214abdc96%26source%3Dhp%26ei%3Drho7aY75I-Gf4-EPw6SImQU%26iflsig%3DAOw8s4IAAAAAaTsovprR8xVVBydBTfl7kFo9r7CAPAMw%26ved%3D0ahUKEwiOiIrfobaRAxXhzzgGHUMSIlMQ4dUDCBU%26uact%3D5%26oq%3DThe%2BWitcher%2B3%26gs_lp%3DEgdnd3Mtd2l6Ig1UaGUgV2l0Y2hlciAzSBdQAFgVcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAA%26sclient%3Dgws-wiz%26sei%3Drxo7abmnG9ujvr0P-I2GyQI&q=EgRnNmldGK-17MkGIjDEUbD0H29hvVrdmb5KM105frzD4T-8GzIT9qIOlwOpqLx8-tAKfALWrriOpBIz8zUyAVJaAUM
-	at pageObjects.GoogleSearch.checkCaptca(GoogleSearch.java:35)
-	at stepDefinition.GoogleSearchSteps.i_should_see_results_related_to(GoogleSearchSteps.java:25)
-	at ✽.I should see results related to "The Witcher 3"(file:///D:/VS%20Project/BDD_Cucumber/selenium-testng-bdd/src/test/resources/features/GoogleSearch.feature:9)
-]]>
-</failure>
-<system-out><![CDATA[
-Given I am on the Google search page........................................passed
-When I search for "The Witcher 3"...........................................passed
-Then I should see results related to "The Witcher 3"........................failed
-]]></system-out>
+<testsuite name="Cucumber" time="0.14" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-12T07:42:27.817504700Z">
+<testcase classname="Feature to check multiple tags" name="This scenario will run for both regression and sprint testing" time="0.006">
 </testcase>
 </testsuite>

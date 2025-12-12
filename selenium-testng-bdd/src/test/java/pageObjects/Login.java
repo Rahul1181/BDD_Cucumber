@@ -21,11 +21,10 @@ public class Login {
     WebElement emailField;
 
     @FindBy(xpath = "//*[contains(@data-qa, 'login-password')]")
-    @CacheLookup
+    @CacheLookup    //Don't use it on Ajax application, because it will change and you won't find the element
     WebElement passwordField;
 
     @FindBy(xpath = "//*[contains(@data-qa, 'login-button')]")
-    @CacheLookup
     WebElement loginButton;
 
     public void openWebsite(){

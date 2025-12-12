@@ -32,11 +32,6 @@ public class GoogleSearch {
         if (!driver.getPageSource().contains("The Witcher 3")) {
            throw new IllegalStateException("CAPTCHA detected. Please complete the CAPTCHA before " + driver.getCurrentUrl());
          }
-         // else {
-        //     // Check if your content is visible
-        //     boolean isVisible = driver.getPageSource("The Witcher 3").contains();
-        //     System.out.println("Content visible: " + isVisible);
-        // }
     }
     
     
