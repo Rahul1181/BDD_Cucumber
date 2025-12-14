@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.After;
+import io.cucumber.java.BeforeStep;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -31,8 +32,15 @@ public class Hooks {
             driver = null; // Important to avoid stale driver references
         }
     }
+//    @BeforeStep(order =1)
+//    public void afterEachStep(){
+//        System.out.println("Run it Before every feature file steps");
+//    }
     public static WebDriver getDriver() {
         return driver;
     }
+
     
 }
+
+//Order works in reverse sequence in case of @After annotations and we can use tags like @Before(
